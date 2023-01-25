@@ -1,38 +1,22 @@
-.language-button {
-  min-width: 90px;
-  height: 40px;
-  font-size: 20px;
-  border: 0px;
-  color: black;
+.language-btn {
+  color: #0f172a;
   background-color: transparent;
-}
-.active {
-  min-width: 110px;
-  border: 2px solid #0284c7;
-  border-radius: 20px;
-  color: #0284c7;
-  font-weight: 500;
-  font-size: 28px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  flex-shrink: 0;
+  cursor: pointer;
+  outline: none;
 }
 
-li {
-  display: flex;
-}
-@media (max-width: 768px) {
-  .language-button {
-    min-width: 15px;
-    height: 40px;
-    font-size: 15px;
-    border: 0px;
-    color: black;
-    /* background-color: red; */
-  }
-  .active {
-    min-width: 15px;
-    border: 2px solid #0284c7;
-    border-radius: 20px;
-    color: #0284c7;
-    font-weight: 500;
-    font-size: 20px;
-  }
+.active-language-btn {
+  color: #0284c7;
+  border-radius: 24px;
+  border: 1px solid #0284c7;
 }
